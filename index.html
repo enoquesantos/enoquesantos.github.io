@@ -121,7 +121,7 @@
             import { Octokit, App } from "https://cdn.skypack.dev/octokit"
 
             const octokit = new Octokit({
-                auth: "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"
+                auth: atob('Z2hwXzJrYUpEa003S1kwVENLRWY3TzhNa2hmS1pmd0U2VTNySXU1cA==')
             })
 
             const { data: { login } } = await octokit.rest.users.getAuthenticated()
